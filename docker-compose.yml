@@ -5,6 +5,8 @@ services:
       context: .
       args:
         - VERSION=local
+      ports:
+        - "8083:80"
     volumes:
       - ./config:/config
 
