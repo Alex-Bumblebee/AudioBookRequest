@@ -1,7 +1,6 @@
 services:
   web:
     # start with `docker-compose --profile local up`
-    profiles: [local]
     build:
       context: .
       args:
